@@ -7,12 +7,12 @@
 @import url(banner.css);
 @import url(blog.css);
 @import url(info.css);
+@import url(formu.css);
 
 /* Quitamos padding i margin */
 * {
-    padding: 0;
-    margin: 0;
-    
+    padding: 0px;
+    margin: 0px;
 }
 
 /* Establecemos el tipo de letra y el background del body */
@@ -30,7 +30,9 @@ header {
     top: 0;
     left: 0;
     z-index: 100;
+    font-size: 15px;
 }
+
 
 header h1:hover {
     color: wheat;
@@ -43,6 +45,8 @@ header h1:hover {
 
 h1 {
     float: left;
+    font-size: 20px;
+    margin-top: 8px;
 }
 
 header .contenedor {
@@ -57,6 +61,7 @@ section {
 #recibir {
     text-align: center;
 }
+
 
 #btnLeer {
     cursor: pointer;
@@ -77,6 +82,10 @@ section {
 
 #leer {
     text-align: center;
+}
+
+#audio {
+    display: "none";
 }
 
 footer .contenedor {

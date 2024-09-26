@@ -20,6 +20,11 @@
     font-size: 28px;
 }
 
+#banner p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
 #banner a {
     display: block;
     width: 100px;

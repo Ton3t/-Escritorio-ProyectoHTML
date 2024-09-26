@@ -1,13 +1,83 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/estilo.css">
-    <script src="./javascript/script.js"></script>
-    <title>Document</title>
+    <script src="./javascript/formu.js"></script>
+    <link rel="shortcut icon" href="./img/ico-hotel.png" type="image/x-icon">
+    <title>Apartamentos Isa i Toni</title>
 </head>
+
 <body>
-    
+    <header>
+        <div class="contenedor">
+            <h1>Apartamentos Isa i Toni</h1>
+            <input type="checkbox" name="Menu" id="menu-bar">
+            <label for="menu-bar"><img src="./img/menu.png" alt="" id="ico"></label>
+            <form name="form_reloj">
+                <input type="text" name="reloj" size="10" id="reloj">
+            </form>
+            <nav class="menu">
+                <a href="index.html">Inicio</a>
+                <a href="info.html">Información</a>
+                <a href="formu.html">Formulario</a>
+            </nav>
+        </div>
+    </header>
+    <section id="banner">
+        <img src="./img/foto9.jpg" alt="imgBanner" id="imagenes">
+        <div class="contenedor">
+            <h2>Apartamenos Isa i Toni</h2>
+            <p>
+                Un lugar maravilloso, en el valle de Sella Alicante, situado a los pies de la Sierra de Aitana
+            </p>
+        </div>
+    </section>
+    <section id="miFor">
+        <h2>Deja tu comentario</h2>
+        <div class="contenedor">
+            <div class="formu">
+                <form id="miformulario" action="mailto:elton3t@gmail.com" method="POST" name="formuTonet"
+                    enctype="text/plain">
+                    Titulo: <input type="text" class="text" size="20" id="tituformu"><br>
+                    Mensaje: <br>
+                    <textarea name="opina" id="txtArea" cols="30" rows="10"></textarea><br>
+                    Nombre: <input size="20" type="text" name="nombre" id="f1"></input> <br />
+                    Apellidos: <input size="20" type="text" name="apellidos" id="f2"></input> <br />
+                    Em@il: <input size="20" type="text" name="email" id="email"></input><br>
+                    Edad: <input size="10" type="text" name="anyos" id="edad"></input> <br />
+                    <input type="checkbox" name="aceptar" id="terminos"></input> Acepto las condiciones de uso<br />
+                    Puntua la web:
+                    <select name="idioma" id="opciones">
+                        <option value="">-Puntua la web-</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select> <br />
+                </form>
+                <input type="button" id="botonEnviar" value="Enviar"></input>
+            </div>
+        </div>
+    </section>
+    <section id="firmas">
+        <div class="contenedor"></div>
+        <h2>Comentarios</h2>
+        </div>
+    </section>
+    <footer>
+        <div class="contenedor">
+            <p>Antonio Moreno Cantó &copy; 2020</p>
+        </div>
+    </footer>
 </body>
+
 </html>

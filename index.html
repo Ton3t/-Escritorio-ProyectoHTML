@@ -1,129 +1,141 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/estilo.css">
-    <script src="./javascript/script.js"></script>
-    <title>Apartamentos Isa i Toni</title>
-</head>
-<body>
-    <header>
-        <div class="contenedor">
-            <h1>Apartamentos Isa i Toni</h1>
-            <input type="checkbox" name="Menu" id="menu-bar">
-            <label for="menu-bar">Menu</label>
-            <nav class="menu">
-                <a href="index.html">Inicio</a>
-                <a href="info.html">Información</a>
-                <a href="formu.html">Formulario</a>
-            </nav>
-        </div>
-    </header>
-    <section id="banner">
-        <img src="./img/foto7.jpg" alt="imgBanner" id="imagenes">
-        <div class="contenedor">
-            <h2>Apartamenos Isa i Toni</h2>
-            <p>Un lugar maravilloso, en el valle de Sella Alicante, situado a los pies de la Sierra de Aitana
-            </p>
-        </div>
-    </section>
-    <section id="recibir">
-        <div class="contenedor">
-            <h2>
-                Bienvenido a nuestra página web
-            </h2>
-            <p id="anyadeTexto">
-                Los Apartamentos Turisticos Isa i Toni ofrecen apartamentos y estudios con aire acondicionado, balcón
-                con vistas al mar y acceso a una piscina comunitaria. El establecimiento cuenta con aparcamiento
-                gratuito.
-                Los apartamentos y estudios disponen de zona de cocina con microondas, nevera, zona de barbacoa y baño
-                con bañera o ducha. También se incluyen toallas y ropa de cama.
-            </p>
-            <p>
-                <input type="button" value="Leer más" id="btnLeer" onclick="">
-                <!--
-                <a href="#" id="leer">Leer más</a>
-                -->
 
-            </p>
-        </div>
-    </section>
-    <section id="blog">
-        <h3>Turismo rural</h3>
-        <p>Sitios que puedes visitar mientras te hospedas en nuestros Apartamentos</p>
-        <div class="contenedor">
-            <article>
-                <a href="https://www.diarioinformacion.com/cultura/2139/font-major/662279.html"><img src="./img/fm2.jpg" alt="foto-Font-Major"></a>
-                <h4>
-                    Font Major
-                </h4>
-            </article>
-            <article>
-                <a href="https://es.wikipedia.org/wiki/Archivo:Ermita_de_Sella_(restos_del_Castillo_de_Santa_B%C3%A1rbara)_1.jpg"><img src="./img/ermita.jpg" alt="Ermita-Sella"></a>
-                <h4>
-                    Ermita
-                </h4>
-            </article>
-            <article>
-                <a href="https://rutasazulesalicante.es/PDFs/RutasAzules_Agua/RA6/RA6_Ex1_Sella.pdf"><img src="./img/falcantera.jpg" alt="fuente-Alcantera"></a>
-                <h4>
-                    Font de l'Alcantera
-                </h4>
-            </article>
-            <article>
-                <a href="https://es.wikipedia.org/wiki/Villajoyosa"><img src="./img/playaVillajoysa.jpg" alt="playaVillajoyosa"></a>
-                <h4>
-                    Villajoyosa (Playa)
-                </h4>
-            </article>
-            <article>
-                <a href="https://es.wikipedia.org/wiki/Sella_(Alicante)"><img src="./img/plaza.jpg" alt="plazaSella"></a>
-                <h4>
-                    Plaza Major Sella
-                </h4>
-            </article>
-            <article>
-                <a href="https://es.wikiloc.com/rutas-senderismo/ruta-del-agua-sella-alicante-9177044"><img src="./img/rutaAgua.jpg" alt="rutaDelAgua"></a>
-                <h4>
-                    Ruta de l'aigua
-                </h4>
-            </article>
-        </div>
-    </section>
-    <section id="info">
-        <h3>
-            Empleados
-        </h3>
-        <div class="contenedor">
-            <div class="info-empleados">
-                <img src="./img/papa.jpg" alt="padre">
-                <h4>Antonio Moreno Sánchez</h4>
-            </div>
-            <div class="info-empleados">
-                <img src="./img/mama.jpg" alt="madre">
-                <h4>Isabel Cantó Cantó</h4>
-            </div>
-            <div class="info-empleados">
-                <img src="./img/javi.jpg" alt="javi">
-                <h4>Javier Moreno Cantó</h4>
-            </div>
-            <div class="info-empleados">
-                <img src="./img/jaume.jpg" alt="jaumet">
-                <h4>Jaume Moreno Cantó</h4>
-            </div>
-            <div class="info-empleados">
-                <img src="./img/tonet.jpg" alt="tonet">
-                <h4>Antonio Moreno Cantó</h4>
-            </div>
-        </div>
-    </section>
-    <footer>
-        <div class="contenedor">
-            <p>Antonio Moreno Cantó &copy; 2020</p>
-        </div>
-    </footer>
-    
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/estilo.css">
+  <script src="./javascript/script.js"></script>
+  <link rel="shortcut icon" href="./img/ico-hotel.png" type="image/x-icon">
+  <title>Apartamentos Isa i Toni</title>
+</head>
+
+<body>
+  <header>
+    <div class="contenedor">
+      <h1>Apartamentos Isa i Toni</h1>
+      <input type="checkbox" name="Menu" id="menu-bar">
+      <label for="menu-bar"><img src="./img/menu.png" alt="" id="ico"></label>
+      <form name="form_reloj">
+        <input type="text" name="reloj" size="10" id="reloj">
+      </form>
+      <nav class="menu">
+        <a href="index.html">Inicio</a>
+        <a href="info.html">Información</a>
+        <a href="formu.html">Formulario</a>
+        
+      </nav>
+    </div>
+  </header>
+  <section id="banner">
+    <img src="./img/foto3.jpg" alt="imgBanner" id="imagenes">
+    <div class="contenedor">
+      <h2>Apartamenos Isa i Toni</h2>
+      <p>
+        Un lugar maravilloso, en el valle de Sella Alicante, situado a los pies de la Sierra de Aitana
+      </p>
+    </div>
+  </section>
+  <section id="recibir">
+    <div class="contenedor">
+      <h2>
+        Bienvenido a nuestra página web
+      </h2>
+      
+      <p id="anyadeTexto">
+        Los Apartamentos Turisticos Isa i Toni ofrecen apartamentos y estudios con aire acondicionado, balcón
+        con vistas al mar y acceso a una piscina comunitaria. El establecimiento cuenta con aparcamiento
+        gratuito.
+        Los apartamentos y estudios disponen de zona de cocina con microondas, nevera, zona de barbacoa y baño
+        con bañera o ducha. También se incluyen toallas y ropa de cama.
+      </p>
+      <p>
+        <input type="button" value="Leer más" id="btnLeer">
+      </p>
+    </div>
+  </section>
+  <section id="blog">
+    <h3>Turismo rural</h3>
+    <p>Sitios que puedes visitar mientras te hospedas en nuestros Apartamentos</p>
+    <div class="contenedor">
+      <article>
+        <a href="https://www.diarioinformacion.com/cultura/2139/font-major/662279.html"><img src="./img/fm2.jpg"
+            alt="foto-Font-Major"></a>
+        <h4>
+          Font Major
+        </h4>
+      </article>
+      <article>
+        <a
+          href="https://es.wikipedia.org/wiki/Archivo:Ermita_de_Sella_(restos_del_Castillo_de_Santa_B%C3%A1rbara)_1.jpg"><img
+            src="./img/ermita.jpg" alt="Ermita-Sella"></a>
+        <h4>
+          Ermita
+        </h4>
+      </article>
+      <article>
+        <a href="https://rutasazulesalicante.es/PDFs/RutasAzules_Agua/RA6/RA6_Ex1_Sella.pdf"><img
+            src="./img/falcantera.jpg" alt="fuente-Alcantera"></a>
+        <h4>
+          Font de l'Alcantera
+        </h4>
+      </article>
+      <article>
+        <a href="https://es.wikipedia.org/wiki/Villajoyosa"><img src="./img/playaVillajoysa.jpg"
+            alt="playaVillajoyosa"></a>
+        <h4>
+          Villajoyosa (Playa)
+        </h4>
+      </article>
+      <article>
+        <a href="https://es.wikipedia.org/wiki/Sella_(Alicante)"><img src="./img/plaza.jpg" alt="plazaSella"></a>
+        <h4>
+          Plaza Major Sella
+        </h4>
+      </article>
+      <article>
+        <a href="https://es.wikiloc.com/rutas-senderismo/ruta-del-agua-sella-alicante-9177044"><img
+            src="./img/rutaAgua.jpg" alt="rutaDelAgua"></a>
+        <h4>
+          Ruta de l'aigua
+        </h4>
+      </article>
+    </div>
+  </section>
+  <section id="info">
+    <h2>
+      Empleados
+    </h2>
+    <div class="contenedor">
+      <div class="info-empleados">
+        <img src="./img/papa.jpg" alt="padre" id="padre">
+        <h4>Antonio Moreno Sánchez</h4>
+      </div>
+      <div class="info-empleados">
+        <img src="./img/mama.jpg" alt="madre" id="madre">
+        <h4>Isabel Cantó Cantó</h4>
+      </div>
+      <div class="info-empleados">
+        <img src="./img/javi.jpg" alt="javi" id="javi">
+        <h4>Javier Moreno Cantó</h4>
+      </div>
+      <div class="info-empleados">
+        <img src="./img/jaume.jpg" alt="jaumet" id="jaume">
+        <h4>Jaume Moreno Cantó</h4>
+      </div>
+      <div class="info-empleados">
+        <img src="./img/tonet.jpg" alt="tonet" id="tonet">
+        <h4>Antonio Moreno Cantó</h4>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="contenedor">
+      <p>Antonio Moreno Cantó &copy; 2020</p>
+    </div>
+    <audio src="./javascript/audio.mp3" preload="auto" id="audio"></audio>
+  </footer>
+
 </body>
 
 </html>

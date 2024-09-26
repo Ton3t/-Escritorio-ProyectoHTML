@@ -4,9 +4,14 @@
 
 header label {
     float: right;
-    font-size: 28px;
+    font-size: 20px;
     margin: 6px 0;
     cursor: pointer;
+}
+
+#ico {
+    width: 35px;
+    height: 35px;
 }
 
 .menu {
@@ -35,6 +40,18 @@ header label {
 
 #menu-bar:checked ~ .menu {
     transform: translateX(0%);
+}
+
+#reloj {
+    background-color: #333;
+    color: whitesmoke;
+    border-style: none;
+    float: left;
+    margin-left: 5px;
+    padding: 13px;
+    font-size: 15px;
+    font-weight: bold;
+    width: 79px;
 }
 
 @media (min-width:1024px) {
